@@ -1,0 +1,80 @@
+.ble {
+    height: 100vh;
+    position: relative;
+}
+
+.ble::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/ble.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(90%);
+    z-index:-1;
+}
+
+.barreNav {
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.596);
+    display: flex;
+    align-items: center;
+}
+
+.leReste {
+    height: 80%;
+}
+
+.lienNav {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.boiteTexteHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boiteTexteHeader>h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logoEtMenu {
+    justify-content: space-evenly;
+}
+.bordure{
+
+    border: 2px solid cyan;
+}
+.couleur{
+
+    color: white;
+    font-weight: bold;
+}
+.couleurFond{
+
+    background-color: cyan;
+    
+}
+.oui{
+
+    text-decoration: underline;
+}
+.couleur2{
+
+    color: cyan;
+    font-weight: bold;
+}
